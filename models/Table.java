@@ -29,7 +29,7 @@ public class Table {
     /**
      * Called when a new check is opened.
      * 
-     * @param int _userId the userId that is starting the check
+     * @param _userId the userId that is starting the check
      * @return boolean A return status to check if an operation succeeded
      */
     boolean startCheck(int _userId) {
@@ -39,7 +39,7 @@ public class Table {
     /**
      * Called when a ticket is added to the check.
      *
-     * @param int _ticketId the ticketId with items that we are adding to the
+     * @param  _ticketId the ticketId with items that we are adding to the
      *        running total of the check
      * @return boolean A return status to check if an operation succeeded
      */
@@ -50,7 +50,7 @@ public class Table {
     /**
      * Called when a ticket is cashed out.
      *
-     * @param int _checkId the id of the check to cash out
+     * @param _checkId the id of the check to cash out
      * @return boolean a return status to check if the method succeeded
      */
     boolean cashOutTicket(int _checkId) {
